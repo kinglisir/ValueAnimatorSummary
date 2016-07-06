@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+  
+     >
+
+   
+    <LinearLayout
+        android:id="@+id/ll_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#c4c4c4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="值动画改变空间高度"
+            android:textColor="#c4c4c4"
+            android:textSize="28px" />
+
+        <ImageView
+            android:id="@+id/iv_other_arrow"
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15px"
+            android:src="@drawable/up_arrow" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#c4c4c4" />
+    </LinearLayout>
+
+ <LinearLayout 
+     android:paddingTop="20dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:id="@+id/ll_root">
+      <ImageView
+        android:id="@+id/iv_weChat"
+        android:layout_width="0dp"
+        android:layout_height="80px"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/iv_QQ"
+        android:layout_width="0dp"
+        android:layout_height="80px"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/iv_Sina"
+        android:layout_width="0dp"
+        android:layout_height="80px"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher" />
+      
+ </LinearLayout>
+</LinearLayout>
